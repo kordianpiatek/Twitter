@@ -1,20 +1,13 @@
 # twitter
-Aplikacja w stylu Twittera napisana w PHP i MySql. 
-Do integracji bazy danych z obiektami w programie wykorzystano wzorzec Avtive Record.
+Twitter style application written in PHP and MySql.
+The Active Record pattern was used to integrate the database with objects in the program.
 
-Aplikacja implementuje następujące funkcjonalności:
+The application implements the following functionalities:
 
-  * Użytkownicy: dodawanie, modyfikacja
-    niekluczowych informacji o sobie, usuwanie
-    swojego konta.
+  * Users: adding, modifying non-key information about yourself, deleting your account.
 
-  * Wpisy: Każdy użytkownik może stworzyć
-    nieograniczoną liczbę wpisów. Maksymalna
-    długość wpisu to 140 znaków.
+  * Tweets: Each user can create an unlimited number of tweets. The maximum length of the tweet is 140 characters.
 
-  * Komentarze: pod każdym wpisem inni
-    użytkownicy mogą dodawać komentarze. 
-    Maksymalna długość komentarza to 60 znaków.
+  * Comments: other users can add comments under each tweet. The maximum length of a comment is 60 characters.
 
-  * Wiadomości: Każdy użytkownik może
-    wysłać innemu użytkownikowi wiadomość.
+  * Messages: Each user can send a message to another user.
